@@ -18,7 +18,8 @@ In this project, let's build a **Browser History** app by applying the concepts 
 - [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Empty History View](https://assets.ccbp.in/frontend/content/react-js/browser-history-empty-view-lg-output.png)
 
 </details>
-
+### Check out the Application link
+https://tarakbrowserhis.ccbp.tech
 ### Set Up Instructions
 
 <details>
