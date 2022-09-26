@@ -1,0 +1,97 @@
+.history-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: -25px;
+  padding-top: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+p {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 700;
+}
+
+.history-site {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+@media screen and(min-width:768px) {
+  .history-site {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .time {
+    width: 100px;
+  }
+}
+
+.logoandsite {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .logoandsite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.site-logo {
+  height: 25px;
+  width: 25px;
+}
+.site {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .site {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.site-name {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .site-name {
+    margin-right: 1px;
+  }
+}
+
+.url {
+  font-size: 13px;
+  font-weight: 500;
+  color: #64748b;
+}
+@media screen and (min-width: 768px) {
+  .url {
+    margin-left: 4px;
+    margin-top: 1px;
+  }
+}
+
+.delete-icon {
+  padding-right: 7px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .delete-icon {
+    align-self: flex-end;
+  }
+}
